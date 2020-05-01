@@ -15,7 +15,7 @@ keypoints:
 ---
 
 
-### Parallel Computing Memory Architectures
+## Parallel Computing Memory Architecture
 
 The organization of the memory system is second, equally important, aspect of high performance computing. If the memory cannot keep up and provide instructions and data at a sufficient rate there will be no improvement in performance.
 
@@ -27,7 +27,7 @@ The distinction between shared memory and distributed memory is an important one
 In this section introduce techniques used to connect processors to memories in high performance computers and how these techniques affect programmers.
 
 
-#### Shared memory
+### Shared memory
 
 - Multiple processors can operate independently but share the same memory resources.
 - All processors have equal access to data and instructions in this memory
@@ -89,7 +89,7 @@ Practically all HPC computer systems today employ both shared and distributed me
 - The shared memory component can be a shared memory machine and/or graphics processing units (GPU).
 - The distributed memory component is the networking of multiple shared memory/GPU machines.
 
-The important advantage is increased scalability. Increased complexity of programming is an important disdvantage. 
+The important advantage is increased scalability. Increased complexity of programming is an important disdvantage.
 
 #### What memory model to implement?
 
